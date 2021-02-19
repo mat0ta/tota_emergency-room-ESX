@@ -1,0 +1,29 @@
+body{
+    margin: auto;
+}
+@font-face {
+    font-family: 'sans-serif';
+    src: url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+}
+
+.eas {
+    font-family: 'sans-serif';
+    border-radius: 50px;
+    text-align: center;
+    font-size: 100%;
+    color: #fff;
+    border-top: 6px solid rgb(255, 255, 255);
+    border-bottom: 6px solid  rgb(255, 255, 255);
+    border-left: 6px solid  rgb(255, 255, 255);
+    border-right: 6px solid  rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.459);
+    animation-name: blinking;
+    animation-duration: 0.5s;
+    animation-iteration-count: 100;
+}
+
+@keyframes blinking {
+    50% {
+      border-color: #ff1d16;
+    }
+}
